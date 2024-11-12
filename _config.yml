@@ -50,8 +50,8 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-bib_search: true
+socials_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -141,10 +141,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -194,7 +194,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: false
+    output: true
     permalink: /:collection/:title/
   projects:
     output: false
@@ -637,15 +637,12 @@ jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
 jsonresume:
-  - basics
+  - introduction
   - work
   - education
-  - publications
-  - projects
-  - volunteer
+  - research output
+  - organizations
   - awards
-  - certificates
+  - licenses
   - skills
-  - languages
-  - interests
-  - references
+
