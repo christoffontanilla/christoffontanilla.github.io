@@ -1,1 +1,0 @@
-Christof Fontanilla is a PhD candidate from the Graduate School of Science of Tohoku University, who specializes in the Organometallic Chemistry of Transition Metal-Germanium Multiple Bonds, and is currently focusing on Supercomputer-Aided Quantum Chemistry Modelling. 
