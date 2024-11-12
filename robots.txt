@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://christoffontanilla.github.io/sitemap.xml
